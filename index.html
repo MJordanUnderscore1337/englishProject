@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Kopach proj</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main_content">
+            <h1>Bug report #0001 [Interface overlapping]</h1>
+            <h4>LABELS</h2>
+
+            <div class="grid">
+                <div class="box label_category">
+                    <p>Category: Graphic elements</p>
+                </div>
+                <div class="box label_prio">
+                    <p>Priority: Extreme</p>
+                </div>
+                <div class="box label_severity">
+                    <p>Severity: Minor</p>
+                </div>
+            </div>
+            <h4>Description</h4>
+        </div>
+
+        <div class="description">
+            <p><span class="do_bold">Priority:</span> Extreme</p>
+            <p><span class="do_bold">Severity:</span> Minor</p>
+            <p><span class="do_bold">Description:</span> When the user selects option 1 (terminate process), 
+            after confirming the choice, the text in the console shifts by an
+            indeterminate number of lines, overlapping the information panel in the console.</p>
+            <p><span class="do_bold">Expected result:</span> Separated presentation of the navigation and information blocks without overlapping.</p>
+            <p><span class="do_bold">Actual result:</span> The text from the information panel overlaps the text from the navigation block.</p>
+            <p><span class="do_bold">Steps:</span>
+                <ol>
+                    <li><p>Open a cmd console</p></li>
+                    <li><p>Run program "OS_Lab3.exe" with additional parameters "10 100 50000 6 -f"</p></li>
+                    <li><p>Choose option 1 (kill process)</p></li>
+                    <li><p>Choose one of the processes to kill</p></li>
+                    <li><p>Confirm your choice by pressing "Enter"</p></li>
+                </ol></p>
+            <p><span class="do_bold">Additional information:</span>
+                <ul>
+                    <li><p>Current build: 2.34</p></li>
+                    <li><p>OS: Windows 10</p></li>
+                </ul></p>
+        </div>
+
+        <div class="attachments">
+            <p><span class="do_bold">Attachments:</span></p>
+            <div class="vertical_images">
+                <img src="img/image1.bmp" alt="image 1">
+                <img src="img/image2.bmp" alt="image 2">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
